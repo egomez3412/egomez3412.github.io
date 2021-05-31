@@ -1,0 +1,90 @@
+.main-background {
+    height: 20%;
+    background-image: linear-gradient(rgba(48, 48, 48, 0.5), rgba(50, 0, 0, 0.5)), url("https://static-cdn.eleague.com/2017-11/EL_studio_story_A.jpg");
+    /* Background Image Formatting */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+    /* Center Contents inside Hero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 7vw;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    text-shadow: 3px 3px #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.leaderboard {
+    max-width: 25 rem;
+    border: 1px solid #B8860B;
+    margin: 2rem auto;
+    text-align:center;
+}
+
+header {
+    background-color:black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+table {
+    background-color: #16181e;
+    color: #999;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #8FBC8F;
+    font-size: 0.75rem;
+    color: #555;
+    text-transform: uppercase;
+}
+
+tbody .nick {
+    color: white;
+}
+
+.user {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.rank {
+    text-align: right;
+}
+
+.points {
+    text-align: center;
+    width: 8sch;
+}
+
+th {
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #1f232c;
+}
+/* #1f232c */

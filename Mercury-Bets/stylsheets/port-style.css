@@ -1,0 +1,103 @@
+.main-background {
+    height: 20%;
+    background-image: linear-gradient(rgba(48, 48, 48, 0.5), rgba(50, 0, 0, 0.5)), url("https://static-cdn.eleague.com/2017-11/EL_studio_story_A.jpg");
+    /* Background Image Formatting */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+    /* Center Contents inside Hero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 7vw;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    text-shadow: 3px 3px #000;
+}
+
+/*formatting header*/
+.header-portfolio {
+    background-color: #212529;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+/*formatting nav*/
+.nav-portfolio {
+    float:right;
+    background-color: ivory;
+}
+
+.nav-portfolio ul {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-portfolio li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top:25px;
+}
+
+.nav-portfolio a {
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem;
+}
+/*formatting button*/
+.select-view {
+    position: relative;
+    display:inline-block;
+}
+.dropdown {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .dropdown:hover {
+      background-color: #555;
+      color: white;
+  }
+
+  .ddcont {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index:1;
+  }
+
+  .ddcont a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .ddcont a:hover {background-color: #ddd;}
+
+  .select-view:hover .ddcont {display: block;}
+ 
+
+/*button formatting ends here*/
